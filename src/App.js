@@ -4,6 +4,7 @@ import About from './components/about/About';
 import Contacts from './components/contacts/Contacts';
 import Home from './components/home/Home';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import logoMini from './components/about/logoMini.png';
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,8 @@ class App extends Component {
             <Link to="/about">About  <br/></Link>
          
             <Link to="/contacts">Contacts  <br/></Link>
+            <img src={logoMini} className='logoMini' alt='logoMini'></img>
+            
           <br/>
         </nav>
         <Route path='/' exact component={Home}/>

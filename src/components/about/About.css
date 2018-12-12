@@ -1,5 +1,6 @@
 .mybio{
-    display: flex;   
+    display: flex;  
+    
 }
 .foto {
     border: 1px solid #ddd;
@@ -9,6 +10,8 @@
 }
 .text {
     display: flex;
+    border: 2px solid black ;
+   
     }
 .logoMini {
     width: 100;
